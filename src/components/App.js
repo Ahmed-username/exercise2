@@ -5,7 +5,6 @@ import Ex2 from "./Ex2"
 import Header from "./Header"
 import Home from "./Home"
 var calendarJS = require("calendar-js");
-let currentDate = new Date();
 
 class App extends React.Component {
   constructor() {
@@ -97,14 +96,16 @@ class App extends React.Component {
 
     
 
-    return <div>
+    return (
+    <div>
       <Header />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="ex1" component={Ex1} />
-        <Route path="ex2" component={Ex2} />
+        <Route  path="/ex1" render={() => <Ex1 /> } />
+        <Route  path="/ex2" component={Ex2} />
       </Switch>
-    </div>;
+    </div>
+    );
   }
 }
 
