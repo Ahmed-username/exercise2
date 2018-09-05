@@ -41,3 +41,4 @@ format=json	overrides Accept header preference and renders output in raw JSON in
 
 $ npm install
 $ npm i calendar-js
+$ npm i react-router-dom
