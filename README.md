@@ -38,3 +38,7 @@ overlaps=1	include extra events which overlaps others
 page=1	sets the page number if there are too many events
 paginate_by=50	sets the number of elements returned per page (default 20, max 500)
 format=json	overrides Accept header preference and renders output in raw JSON instead of web-api HTML
+
+$ npm install
+$ npm i calendar-js
+$ npm i react-router-dom
