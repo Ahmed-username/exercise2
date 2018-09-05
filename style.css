@@ -1,3 +1,41 @@
 body{
-    background-color: #cccccc;
+    background-color: lemonchiffon;
+}
+
+.title{
+    text-align: center;
+}
+
+.week{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.day{
+    width: 80%;
+    height: 30%;
+    border-style: solid;
+    margin: 10px;
+    background-color: white;
+}
+
+.white{
+    color: white;
+}
+
+@media(min-width: 640px){
+    .week{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .day{
+        width: 25%;
+        height: 30%;
+        border-style: solid;
+        margin: 10px;
+        background-color: white;
+    }
 }
