@@ -17,6 +17,7 @@
     ]
   },
   "dependencies": {
+    "calendar-js": "^1.4.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
