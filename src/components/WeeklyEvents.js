@@ -35,11 +35,11 @@ class WeeklyEvents extends React.Component{
        
 
         return(
-            <div>
+            <div className="week">
                 {this.state.calendarEvents.map(day=>{
                     return(
-                        <div key={day.name} >
-                        <p>{day.name} - {day.day}/{day.month}/{day.year}</p>
+                        <div key={day.name} className="day" >
+                        <h2 className="title">{day.name} - {day.day}/{day.month}/{day.year}</h2>
                         <Events events={day.events} />
                       </div>
                     )
